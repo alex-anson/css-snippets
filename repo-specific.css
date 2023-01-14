@@ -1,6 +1,8 @@
 body,
 html {
   font-family: "Manrope", "Poppins", sans-serif;
+  background-color: #222;
+  min-height: 100vh;
 }
 
 header {
@@ -15,8 +17,7 @@ h2 {
   margin-bottom: 24px;
 }
 
-.dark {
-  background-color: #222;
-  min-height: 100vh;
+section {
   padding-top: 32px;
+  padding-bottom: 32px;
 }

@@ -1,0 +1,27 @@
+/* Just for decoration / fun */
+
+.petal-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.petal-one,
+.petal-two,
+.petal-three,
+.petal-four {
+  width: 80px;
+  height: 80px;
+  border: 4px solid hsl(310, 51%, 42%);
+  margin: 3px;
+}
+.petal-one,
+.petal-four {
+  border-radius: 50% 800%;
+}
+.petal-two,
+.petal-three {
+  border-radius: 800% 50%;
+}
+.petal-one,
+.petal-three {
+  justify-self: end;
+}

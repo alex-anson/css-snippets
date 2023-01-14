@@ -6,10 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./global-reset.css" />
+    <link rel="stylesheet" href="./repo-specific.css" />
+    <link rel="stylesheet" href="./max-width-wrapper.css" />
 
     <title>CSS Snippets</title>
   </head>
   <body>
-    <section></section>
+    <header>
+      <h1>Fun with CSS. 🔮</h1>
+    </header>
+    <section class="dark">
+      <h2>max-width-wrapper</h2>
+      <div class="max-width-wrapper">
+        <div class="max-width-content">
+          <h4>Fulfills these constraints:</h4>
+          <ul>
+            <li>It fills the available space on smaller viewports.</li>
+            <li>
+              It sets a maximum width, and will horizontally center itself
+              within the parent if there is leftover space.
+            </li>
+            <li>
+              It includes a bit of horizontal “breathing room”, so that its
+              children aren't pressed right up against the edges of the
+              viewport.
+            </li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            cumque eligendi incidunt asperiores facere officiis debitis, ullam
+            quae, nesciunt exercitationem deserunt placeat rem enim culpa
+            quisquam soluta? Nihil, quaerat perspiciatis?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            sunt sint nobis esse ea unde sit laudantium! Velit illum, recusandae
+            explicabo harum suscipit cum odio enim est, alias deleniti aut.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

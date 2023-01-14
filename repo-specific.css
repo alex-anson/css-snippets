@@ -1,0 +1,22 @@
+body,
+html {
+  font-family: "Manrope", "Poppins", sans-serif;
+}
+
+header {
+  background-color: #dcdcdc;
+}
+h1,
+h2 {
+  margin-left: 16px;
+}
+h2 {
+  color: #dcdcdc;
+  margin-bottom: 24px;
+}
+
+.dark {
+  background-color: #222;
+  min-height: 100vh;
+  padding-top: 32px;
+}

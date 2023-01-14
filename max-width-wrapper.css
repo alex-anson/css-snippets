@@ -1,0 +1,34 @@
+/*
+Fulfills these constraints: 
+
+- It fills the available space on smaller viewports.
+- It sets a maximum width, and will horizontally center itself within the parent if there is leftover space.
+- It includes a bit of horizontal “breathing room”, so that its children aren't pressed right up against the edges of the viewport. 
+*/
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 500px;
+}
+
+.max-width-content {
+  background-color: #dcdcdc;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 24px 32px;
+}
+
+/* ------------------------------ */
+/* just for this specific example */
+.max-width-content ul {
+  margin-bottom: 24px;
+  list-style-type: circle;
+}
+.max-width-content p:first-of-type {
+  margin-bottom: 12px;
+}
+.max-width-content h4 {
+  margin-bottom: 8px;
+}

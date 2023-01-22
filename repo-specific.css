@@ -2,19 +2,38 @@ body,
 html {
   font-family: "Manrope", "Poppins", sans-serif;
   background-color: #222;
-  min-height: 100vh;
 }
 
-header {
+/*
+When html is given height: 100%, it takes up the height of the viewport. That serves as our base. The body tag's 100% is based on that base size.
+ */
+html,
+body,
+#root, /* for CRA */
+#__next /* for Next.js */ {
+  height: 100%;
+}
+main {
+  /* main & footer are siblings. so this doesn't have *quite* the desired effect */
+  min-height: 100%;
+}
+
+header,
+footer {
   background-color: #dcdcdc;
 }
 h1,
-h2 {
+h2,
+footer p {
   margin-left: 16px;
 }
 h2 {
   color: #dcdcdc;
   margin-bottom: 24px;
+}
+
+footer p {
+  font-size: 1.8rem;
 }
 
 section {

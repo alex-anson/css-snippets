@@ -1,0 +1,17 @@
+.relative-parent {
+  position: relative;
+}
+
+.center-absolute-positioning {
+  position: absolute;
+  /* top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px; */
+  inset: 0;
+  /* ^ modern CSS FTW 👑 */
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: hsl(310, 51%, 42%);
+}

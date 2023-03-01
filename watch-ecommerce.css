@@ -4,7 +4,9 @@
   padding: 16px;
   border-radius: 8px;
   background: white;
-  box-shadow: 0px 2px 8px hsl(238deg 28% 50% / 0.5);
+  /* box-shadow: 0px 2px 8px hsl(238deg 28% 50% / 0.5); */
+  /* ^ won't show anyway, cuz dark background */
+  position: relative;
 }
 
 .watch-ecommerce .flag {
@@ -15,6 +17,10 @@
   font-weight: 500;
   background: hsl(50deg 95% 85%);
   box-shadow: 0px 1px 2px hsl(50deg 45% 45% / 0.2);
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  border-radius: 4px 1rem 1rem 4px;
 }
 
 .watch-ecommerce .product-photo {
@@ -28,9 +34,9 @@
   border-radius: 8px 8px 0px 0px;
 }
 
-.watch-ecommerce h2 {
+.watch-ecommerce h3 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.5em;
 }
 

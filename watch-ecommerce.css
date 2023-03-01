@@ -1,0 +1,41 @@
+.watch-ecommerce {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0px 2px 8px hsl(238deg 28% 50% / 0.5);
+}
+
+.watch-ecommerce .flag {
+  padding-left: 8px;
+  padding-right: 16px;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 500;
+  background: hsl(50deg 95% 85%);
+  box-shadow: 0px 1px 2px hsl(50deg 45% 45% / 0.2);
+}
+
+.watch-ecommerce .product-photo {
+  margin: -16px;
+  margin-bottom: 12px;
+}
+
+.watch-ecommerce .product-photo img {
+  display: block;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.watch-ecommerce h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.watch-ecommerce .subtitle {
+  font-size: 1rem;
+  color: hsl(0deg 0% 30%);
+  font-weight: 300;
+}
